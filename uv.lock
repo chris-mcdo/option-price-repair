@@ -501,7 +501,7 @@ wheels = [
 
 [[package]]
 name = "option-price-repair"
-version = "0.1.0"
+version = "0.2.0"
 source = { editable = "." }
 
 [package.dev-dependencies]
@@ -517,10 +517,10 @@ cvxpy = [
 
 [package.metadata.requires-dev]
 analysis = [
-    { name = "plotly", specifier = ">=6.4.0" },
-    { name = "polars", specifier = ">=1.35.2" },
+    { name = "plotly", specifier = ">=6" },
+    { name = "polars", specifier = ">=1" },
 ]
-cvxpy = [{ name = "cvxpy", specifier = ">=1.7.3" }]
+cvxpy = [{ name = "cvxpy", specifier = ">=1" }]
 
 [[package]]
 name = "osqp"

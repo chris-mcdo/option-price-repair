@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 [project]
 name = "option-price-repair"
 description = "Repair arbitrage in European call option prices."
-version = "0.1.0"
+version = "0.2.0"
 requires-python = ">=3.9"
 dependencies = []
 readme = "README.md"
@@ -32,9 +32,9 @@ Repository = "http://github.com/chris-mcdo/option-price-repair"
 
 [dependency-groups]
 analysis = [
-    "plotly>=6.4.0",
-    "polars>=1.35.2",
+    "plotly>=6",
+    "polars>=1",
 ]
 cvxpy = [
-    "cvxpy>=1.7.3",
+    "cvxpy>=1",
 ]

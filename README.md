@@ -8,7 +8,7 @@ on the same underlyer to ensure that certain no-arbitrage conditions
 are met.
 
 ```python
-# pip install option-price-repair[cvxopt,analysis]
+# pip install option-price-repair[cvxpy,analysis]
 import polars as pl
 from option_price_repair import repair
 
